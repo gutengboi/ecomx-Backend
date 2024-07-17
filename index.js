@@ -4,9 +4,6 @@ const mongoose = require("mongoose");
 const app = express();
 const productRouter = require("./routes/products");
 const port = 3000;
-const cors = require("cors");
-
-app.use(cors());
 
 dotenv.config();
 mongoose
